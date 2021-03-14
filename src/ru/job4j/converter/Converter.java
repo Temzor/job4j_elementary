@@ -21,7 +21,7 @@ public class Converter {
         //Тест для метода Converter.rubleToDollar(rubles)
         int in = 140;
         int expected = 2;
-        int out = Converter.rubleToEuro(in);
+        int out = Converter.rubleToDollar(in);   // Исправлен метод вычисление доллара
         boolean passed = expected == out;
         System.out.println("140 rubles are 2 dollar. Test result : " + passed);
 
