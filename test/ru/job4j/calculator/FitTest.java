@@ -16,10 +16,10 @@ public class FitTest {
     }
 
     @Test
-    public void whenWoman170Then69() {
+    public void whenWoman170Then79() {
         short in = 179;
-        double expected = 69;                                //Будет ошибка, т.к. по формуле (179 - 110) = 79.35
+        double expected = 79.35;
         double out = Fit.womanWeight(in);
-        Assert.assertEquals(out, expected, 0.01);      //Тест не пройден  параметр expected должен быть 79.35
+        Assert.assertEquals(out, expected, 0.01);
     }
 }
