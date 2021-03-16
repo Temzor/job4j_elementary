@@ -15,15 +15,15 @@ public class LogicNot {
     }
 
     public boolean notPositive(int num) {
-        return !isPositive();
+        return !isPositive(1);
     }
 
     public boolean notEvenAndPositive(int num) {
-        return !isEven(num) && isPositive();
+        return !isEven(num) && isPositive(2);
     }
 
     public boolean evenOrNotPositive(int num) {
-        return isEven() || !isPositive();
+        return isEven(4) || !isPositive(4);
     }
 
 }
