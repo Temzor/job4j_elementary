@@ -11,6 +11,10 @@ public class AlgoArray {
         array[1] = array[2];
         array[2] = temp2;
 
+        int temp3 = array[3];
+        array[3] = array[4];
+        array[4] = temp3;
+
         for (int index : array) {
             System.out.println(index);
         }
