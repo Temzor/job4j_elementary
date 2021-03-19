@@ -31,6 +31,17 @@ public class MinDiapasonTest {
         int finish = 2;
         int result = MinDiapason.findMin(array, start, finish);
         int expected = 2;
+
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void whenMiddleMinTest() {
+        int[] array = new int[] {3, 4, 1, 2, 5};
+        int start = 0;
+        int finish = 4;
+        int result = MinDiapason.findMin(array, start, finish);
+        int expected = 1;
         Assert.assertEquals(expected, result);
     }
 }
