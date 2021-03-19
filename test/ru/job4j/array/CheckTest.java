@@ -22,7 +22,7 @@ public class CheckTest {
     public void whenDataNotMonoByFalseThenTrue() {
         boolean[] data = new boolean[] {false, true, false};
         boolean result = Check.mono(data);
-        Assert.assertFalse(result);
+            Assert.assertFalse(result);
     }
 
     @Test
